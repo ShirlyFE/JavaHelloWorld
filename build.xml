@@ -1,35 +1,26 @@
-<project name="HelloWorld" basedir="." default="main">
-    <property name="src.dir"     value="src"/>
-    <property name="build.dir"   value="build"/>
-    <property name="classes.dir" value="${build.dir}/classes"/>
-    <property name="jar.dir"     value="${build.dir}/jar"/>
-    <property name="main-class"  value="oata.HelloWorld"/>
+<project name="JavaHelloWorld" basedir="." default="run">
+  <target name="init">
+    <property name="src.dir" value="src" />
+    <property name="build.dir" value="build" />
+    <property name="classes.dir" value="${build.dir}/class" />
+    <property name="jar.dir" value="${build.dir}/jar" />
+  </target>
 
-    <target name="clean">
-        <delete dir="${build.dir}"/>
-    </target>
+  <target name="compile" description="Compiles the code" depends="init">
+    <mkdir dir="${classes.dir}" />
+    <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" />
+  </target>
 
-    <target name="compile">
-        <mkdir dir="${classes.dir}"/>
-        <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false"/>
-    </target>
+  <target name="jar" description="Packages the code into jar" depends="compile">
+    <mkdir dir="${jar.dir}" />
+    <jar destfile="${jar.dir}/HelloWorld.jar" basedir="build/class">
+      <manifest>
+        <attribute name="Main-Class" value="oata.HelloWorld" />
+      </manifest>
+    </jar>
+  </target>
 
-    <target name="jar" depends="compile">
-        <mkdir dir="${jar.dir}"/>
-        <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
-            <manifest>
-                <attribute name="Main-Class" value="${main-class}"/>
-            </manifest>
-            <fileset dir="${classes.dir}" includes="**/*.class"/>
-        </jar>
-    </target>
-
-    <target name="run" depends="jar">
-        <java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
-    </target>
-
-    <target name="clean-build" depends="clean,jar"/>
-
-    <target name="main" depends="clean,run"/>
-
+  <target name="run" description="Run the jar file" depends="jar" >
+    <java jar="${jar.dir}/HelloWorld.jar" fork="true" />
+  </target>
 </project>
