@@ -1,0 +1,1753 @@
+{
+  "jenkinsServer": {
+    "url": "http://jenkins-activenet-02w.dev.activenetwork.com",
+    "job": "aui",
+    "lastUpdate": "2017-10-27T04:11:23.289Z"
+  },
+  "coverages": [
+    {
+      "jobIndex": 50,
+      "branch": "Shirly-ANE-63540-jest",
+      "dateTime": "2017-07-11T13:38:57.854Z",
+      "status": "SUCCESS",
+      "Stmts": "35.33",
+      "Branch": "33.12",
+      "Funcs": "41.13",
+      "Lines": "41.37"
+    },
+    {
+      "jobIndex": 335,
+      "branch": "Kaely-ANE-61791",
+      "dateTime": "2017-08-17T17:16:57.854Z",
+      "status": "SUCCESS",
+      "Stmts": "37.56",
+      "Branch": "35.6",
+      "Funcs": "44.65",
+      "Lines": "43.72"
+    },
+    {
+      "jobIndex": 507,
+      "branch": "Kaely-ANE-61800",
+      "dateTime": "2017-09-05T06:48:57.854Z",
+      "status": "SUCCESS",
+      "Stmts": "41.12",
+      "Branch": "38.52",
+      "Funcs": "48.12",
+      "Lines": "47.54"
+    },
+    {
+      "jobIndex": 833,
+      "branch": "jc/ANE-67662",
+      "dateTime": "2017-10-11T06:48:57.854Z",
+      "status": "SUCCESS",
+      "Stmts": "63.95",
+      "Branch": "62.28",
+      "Funcs": "69.3",
+      "Lines": "69.76"
+    },
+    {
+      "jobIndex": 834,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-11T07:13:52.912Z",
+      "status": "SUCCESS",
+      "Stmts": "63.95",
+      "Branch": "62.28",
+      "Funcs": "69.3",
+      "Lines": "69.76"
+    },
+    {
+      "jobIndex": 835,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-11T07:36:20.470Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 836,
+      "branch": "echen1/ANE-67649-Save-PDF-exception-for-permit",
+      "dateTime": "2017-10-11T07:55:41.986Z",
+      "status": "SUCCESS",
+      "Stmts": "65.47",
+      "Branch": "64.35",
+      "Funcs": "69.66",
+      "Lines": "71.23"
+    },
+    {
+      "jobIndex": 837,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-11T08:02:59.738Z",
+      "status": "SUCCESS",
+      "Stmts": "65.45",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.21"
+    },
+    {
+      "jobIndex": 838,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-11T08:09:10.787Z",
+      "status": "SUCCESS",
+      "Stmts": "65.48",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.24"
+    },
+    {
+      "jobIndex": 839,
+      "branch": "#839",
+      "dateTime": "2017-10-11T08:16:04.791Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 840,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-11T08:18:20.517Z",
+      "status": "SUCCESS",
+      "Stmts": "65.48",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.24"
+    },
+    {
+      "jobIndex": 841,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-11T08:30:40.399Z",
+      "status": "SUCCESS",
+      "Stmts": "65.48",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.24"
+    },
+    {
+      "jobIndex": 842,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-11T08:43:59.874Z",
+      "status": "FAILURE",
+      "Stmts": "80.05",
+      "Branch": "71.97",
+      "Funcs": "77.55",
+      "Lines": "80.37"
+    },
+    {
+      "jobIndex": 843,
+      "branch": "kfeng/ANE-67650",
+      "dateTime": "2017-10-11T09:28:34.990Z",
+      "status": "FAILURE",
+      "Stmts": "65.48",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.24"
+    },
+    {
+      "jobIndex": 844,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-11T09:51:30.059Z",
+      "status": "FAILURE",
+      "Stmts": "79.41",
+      "Branch": "71.47",
+      "Funcs": "76.87",
+      "Lines": "79.72"
+    },
+    {
+      "jobIndex": 845,
+      "branch": "zqiu/ANE-67650-exception-dates",
+      "dateTime": "2017-10-12T01:39:52.856Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 846,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-12T01:53:17.887Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 847,
+      "branch": "david/ANE-58355",
+      "dateTime": "2017-10-12T02:43:33.030Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 848,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-12T02:51:03.094Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.39",
+      "Funcs": "69.66",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 849,
+      "branch": "echen1/ANE-67751-Waivers-attachment-button-display-bug",
+      "dateTime": "2017-10-12T03:06:38.141Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.4",
+      "Funcs": "69.66",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 850,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-12T05:13:08.496Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.4",
+      "Funcs": "69.66",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 851,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-12T05:19:33.524Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 852,
+      "branch": "david/fix-attachment-style",
+      "dateTime": "2017-10-12T08:28:39.028Z",
+      "status": "FAILURE",
+      "Stmts": "65.47",
+      "Branch": "64.4",
+      "Funcs": "69.61",
+      "Lines": "71.23"
+    },
+    {
+      "jobIndex": 853,
+      "branch": "david/fix-attachment-style",
+      "dateTime": "2017-10-12T08:39:24.054Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.4",
+      "Funcs": "69.66",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 854,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-12T08:52:29.086Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.4",
+      "Funcs": "69.66",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 855,
+      "branch": "kfeng/ANE-67723",
+      "dateTime": "2017-10-12T09:39:09.214Z",
+      "status": "FAILURE",
+      "Stmts": "65.3",
+      "Branch": "64.36",
+      "Funcs": "69.62",
+      "Lines": "71.04"
+    },
+    {
+      "jobIndex": 856,
+      "branch": "kfeng/ANE-67723",
+      "dateTime": "2017-10-12T10:04:54.287Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.38",
+      "Funcs": "69.67",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 857,
+      "branch": "kfeng/ANE-67723",
+      "dateTime": "2017-10-12T10:11:22.576Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.38",
+      "Funcs": "69.67",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 858,
+      "branch": "david/fix-promise-UT",
+      "dateTime": "2017-10-12T10:23:29.330Z",
+      "status": "SUCCESS",
+      "Stmts": "65.54",
+      "Branch": "64.44",
+      "Funcs": "69.79",
+      "Lines": "71.31"
+    },
+    {
+      "jobIndex": 859,
+      "branch": "david/fix-promiseUT",
+      "dateTime": "2017-10-12T10:30:49.346Z",
+      "status": "SUCCESS",
+      "Stmts": "65.54",
+      "Branch": "64.4",
+      "Funcs": "69.76",
+      "Lines": "71.31"
+    },
+    {
+      "jobIndex": 860,
+      "branch": "jc/ANE-67840",
+      "dateTime": "2017-10-12T10:47:29.388Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.4",
+      "Funcs": "69.64",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 861,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-13T01:45:56.861Z",
+      "status": "SUCCESS",
+      "Stmts": "65.49",
+      "Branch": "64.4",
+      "Funcs": "69.64",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 862,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-13T02:06:51.912Z",
+      "status": "SUCCESS",
+      "Stmts": "65.48",
+      "Branch": "64.38",
+      "Funcs": "69.65",
+      "Lines": "71.25"
+    },
+    {
+      "jobIndex": 863,
+      "branch": "echen1/ANE-61904-FEE-fix-the-failed-UTs-as-the-below-lists-shown",
+      "dateTime": "2017-10-13T02:21:46.946Z",
+      "status": "SUCCESS",
+      "Stmts": "65.55",
+      "Branch": "64.47",
+      "Funcs": "69.7",
+      "Lines": "71.33"
+    },
+    {
+      "jobIndex": 864,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-13T02:29:41.964Z",
+      "status": "SUCCESS",
+      "Stmts": "65.55",
+      "Branch": "64.47",
+      "Funcs": "69.7",
+      "Lines": "71.33"
+    },
+    {
+      "jobIndex": 865,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-13T03:14:57.089Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 866,
+      "branch": "kfeng/ANE-67723",
+      "dateTime": "2017-10-13T05:55:37.560Z",
+      "status": "SUCCESS",
+      "Stmts": "65.55",
+      "Branch": "64.47",
+      "Funcs": "69.7",
+      "Lines": "71.33"
+    },
+    {
+      "jobIndex": 867,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-13T06:02:47.575Z",
+      "status": "FAILURE",
+      "Stmts": "79.17",
+      "Branch": "71.37",
+      "Funcs": "76.8",
+      "Lines": "79.49"
+    },
+    {
+      "jobIndex": 868,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-13T06:12:17.597Z",
+      "status": "FAILURE",
+      "Stmts": "63.56",
+      "Branch": "60.8",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 869,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-13T06:18:26.155Z",
+      "status": "SUCCESS",
+      "Stmts": "65.6",
+      "Branch": "64.47",
+      "Funcs": "69.8",
+      "Lines": "71.38"
+    },
+    {
+      "jobIndex": 870,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-13T06:25:22.626Z",
+      "status": "SUCCESS",
+      "Stmts": "65.6",
+      "Branch": "64.47",
+      "Funcs": "69.8",
+      "Lines": "71.38"
+    },
+    {
+      "jobIndex": 871,
+      "branch": "echen1/ANE-61556-Print-Rental-amendments",
+      "dateTime": "2017-10-13T06:33:07.644Z",
+      "status": "SUCCESS",
+      "Stmts": "65.6",
+      "Branch": "64.47",
+      "Funcs": "69.8",
+      "Lines": "71.38"
+    },
+    {
+      "jobIndex": 872,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-13T06:51:02.703Z",
+      "status": "SUCCESS",
+      "Stmts": "65.6",
+      "Branch": "64.47",
+      "Funcs": "69.8",
+      "Lines": "71.38"
+    },
+    {
+      "jobIndex": 873,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-13T07:10:22.758Z",
+      "status": "FAILURE",
+      "Stmts": "63.61",
+      "Branch": "60.8",
+      "Funcs": "67.86",
+      "Lines": "69.34"
+    },
+    {
+      "jobIndex": 874,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-13T07:55:42.875Z",
+      "status": "FAILURE",
+      "Stmts": "63.56",
+      "Branch": "60.61",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 875,
+      "branch": "Stian-ANE-64674-question",
+      "dateTime": "2017-10-13T08:26:02.956Z",
+      "status": "SUCCESS",
+      "Stmts": "63.56",
+      "Branch": "60.61",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 876,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-13T09:10:58.072Z",
+      "status": "SUCCESS",
+      "Stmts": "63.56",
+      "Branch": "60.61",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 877,
+      "branch": "david/ANE-66642",
+      "dateTime": "2017-10-13T13:37:13.825Z",
+      "status": "SUCCESS",
+      "Stmts": "63.56",
+      "Branch": "60.61",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 878,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-13T14:03:15.496Z",
+      "status": "SUCCESS",
+      "Stmts": "63.56",
+      "Branch": "60.61",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 879,
+      "branch": "david/add-new-coverage-report",
+      "dateTime": "2017-10-13T15:09:49.951Z",
+      "status": "SUCCESS",
+      "Stmts": "63.56",
+      "Branch": "60.61",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 881,
+      "branch": "david/add-new-coverage-report",
+      "dateTime": "2017-10-13T15:19:29.982Z",
+      "status": "SUCCESS",
+      "Stmts": "63.56",
+      "Branch": "60.61",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 882,
+      "branch": "Stian-ANE-64686-duration",
+      "dateTime": "2017-10-14T09:58:47.747Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 883,
+      "branch": "david/add-new-coverage-report",
+      "dateTime": "2017-10-14T11:39:38.075Z",
+      "status": "SUCCESS",
+      "Stmts": "63.56",
+      "Branch": "60.61",
+      "Funcs": "67.75",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 885,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-16T01:51:08.637Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 886,
+      "branch": "kfeng/ANE-67723",
+      "dateTime": "2017-10-16T02:50:13.763Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 887,
+      "branch": "rick/ANE-67343-RemovetheduplicatedCARDTYPEDEFINITIONdefinition",
+      "dateTime": "2017-10-16T03:34:03.873Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 888,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-16T06:51:54.354Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 889,
+      "branch": "echen1/ANE-67219-All-dropdown-unfolded-when-using-tab-key-to-switc-the-current-field",
+      "dateTime": "2017-10-16T06:58:19.379Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 890,
+      "branch": "jc/ANE-67576",
+      "dateTime": "2017-10-16T07:04:30.331Z",
+      "status": "FAILURE",
+      "Stmts": "63.41",
+      "Branch": "60.43",
+      "Funcs": "67.44",
+      "Lines": "69.12"
+    },
+    {
+      "jobIndex": 891,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-16T07:10:37.586Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 892,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-16T07:17:14.434Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 893,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-16T07:23:23.563Z",
+      "status": "SUCCESS",
+      "Stmts": "63.54",
+      "Branch": "60.59",
+      "Funcs": "67.75",
+      "Lines": "69.27"
+    },
+    {
+      "jobIndex": 894,
+      "branch": "jc/ANE-67576",
+      "dateTime": "2017-10-16T08:29:24.630Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.59",
+      "Funcs": "67.83",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 895,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-16T13:10:15.515Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.59",
+      "Funcs": "67.83",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 896,
+      "branch": "Stian/ANE-67173-error-modal-name",
+      "dateTime": "2017-10-17T01:19:52.557Z",
+      "status": "SUCCESS",
+      "Stmts": "63.58",
+      "Branch": "60.58",
+      "Funcs": "67.81",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 897,
+      "branch": "Stian/ANE-67173-error-modal-name",
+      "dateTime": "2017-10-17T02:11:22.698Z",
+      "status": "SUCCESS",
+      "Stmts": "63.59",
+      "Branch": "60.58",
+      "Funcs": "67.84",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 898,
+      "branch": "Stian/ANE-67113-calendar-label",
+      "dateTime": "2017-10-17T02:33:32.760Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.59",
+      "Funcs": "67.83",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 899,
+      "branch": "Stian/ANE-67173-error-modal-name",
+      "dateTime": "2017-10-17T02:59:02.834Z",
+      "status": "SUCCESS",
+      "Stmts": "63.58",
+      "Branch": "60.58",
+      "Funcs": "67.81",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 900,
+      "branch": "Stian/ANE-67173-error-modal-name",
+      "dateTime": "2017-10-17T03:21:32.897Z",
+      "status": "SUCCESS",
+      "Stmts": "63.58",
+      "Branch": "60.58",
+      "Funcs": "67.81",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 901,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-17T06:15:53.414Z",
+      "status": "SUCCESS",
+      "Stmts": "63.58",
+      "Branch": "60.58",
+      "Funcs": "67.81",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 902,
+      "branch": "kfeng/ANE-67110",
+      "dateTime": "2017-10-17T06:47:43.508Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.58",
+      "Funcs": "67.79",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 903,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-17T07:05:53.558Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.58",
+      "Funcs": "67.79",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 904,
+      "branch": "david/ANE-68146",
+      "dateTime": "2017-10-17T09:12:33.906Z",
+      "status": "FAILURE",
+      "Stmts": "63.56",
+      "Branch": "60.57",
+      "Funcs": "67.76",
+      "Lines": "69.28"
+    },
+    {
+      "jobIndex": 905,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-17T09:52:09.022Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 906,
+      "branch": "david/ANE-68146",
+      "dateTime": "2017-10-17T09:56:09.499Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.57",
+      "Funcs": "67.79",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 907,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-17T10:36:39.145Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 908,
+      "branch": "Stian/ANE-67113-calendar-label",
+      "dateTime": "2017-10-18T01:26:26.647Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.58",
+      "Funcs": "67.79",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 909,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-18T05:29:37.333Z",
+      "status": "FAILURE",
+      "Stmts": "62.72",
+      "Branch": "59.81",
+      "Funcs": "66.44",
+      "Lines": "68.33"
+    },
+    {
+      "jobIndex": 910,
+      "branch": "david/ANE-68146",
+      "dateTime": "2017-10-18T06:34:22.511Z",
+      "status": "FAILURE",
+      "Stmts": "63.57",
+      "Branch": "60.57",
+      "Funcs": "67.79",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 911,
+      "branch": "mqin/ANE-62712",
+      "dateTime": "2017-10-18T06:51:07.557Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.58",
+      "Funcs": "67.78",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 912,
+      "branch": "david/ANE-68146",
+      "dateTime": "2017-10-18T06:58:00.968Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.57",
+      "Funcs": "67.79",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 913,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-18T07:08:52.600Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.57",
+      "Funcs": "67.79",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 914,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-18T07:20:07.629Z",
+      "status": "FAILURE",
+      "Stmts": "62.63",
+      "Branch": "59.44",
+      "Funcs": "66.33",
+      "Lines": "68.24"
+    },
+    {
+      "jobIndex": 915,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-18T07:37:52.674Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.57",
+      "Funcs": "67.77",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 916,
+      "branch": "kfeng/ANE-67110",
+      "dateTime": "2017-10-18T09:10:02.923Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.57",
+      "Funcs": "67.77",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 917,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-18T09:17:02.938Z",
+      "status": "SUCCESS",
+      "Stmts": "63.57",
+      "Branch": "60.57",
+      "Funcs": "67.77",
+      "Lines": "69.29"
+    },
+    {
+      "jobIndex": 918,
+      "branch": "jc/ANE-68253",
+      "dateTime": "2017-10-18T09:22:58.951Z",
+      "status": "SUCCESS",
+      "Stmts": "64.79",
+      "Branch": "61.6",
+      "Funcs": "68.47",
+      "Lines": "70.4"
+    },
+    {
+      "jobIndex": 919,
+      "branch": "jc/ANE-67406",
+      "dateTime": "2017-10-18T10:45:09.136Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 920,
+      "branch": "jc/ANE-67406",
+      "dateTime": "2017-10-19T01:50:36.497Z",
+      "status": "SUCCESS",
+      "Stmts": "63.58",
+      "Branch": "60.66",
+      "Funcs": "67.69",
+      "Lines": "69.3"
+    },
+    {
+      "jobIndex": 921,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-19T02:16:11.565Z",
+      "status": "SUCCESS",
+      "Stmts": "64.79",
+      "Branch": "61.6",
+      "Funcs": "68.47",
+      "Lines": "70.4"
+    },
+    {
+      "jobIndex": 922,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-19T02:36:06.616Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 923,
+      "branch": "echen1/ANE-67625-FEE-UT-for-index.Payment.components.Payer",
+      "dateTime": "2017-10-19T05:25:02.067Z",
+      "status": "SUCCESS",
+      "Stmts": "65.88",
+      "Branch": "63.02",
+      "Funcs": "69.45",
+      "Lines": "71.39"
+    },
+    {
+      "jobIndex": 924,
+      "branch": "echen1/ANE-67625-FEE-UT-for-index.Payment.components.Payer",
+      "dateTime": "2017-10-19T05:59:12.151Z",
+      "status": "SUCCESS",
+      "Stmts": "65.88",
+      "Branch": "63.02",
+      "Funcs": "69.46",
+      "Lines": "71.4"
+    },
+    {
+      "jobIndex": 925,
+      "branch": "kfeng/ANE-67110",
+      "dateTime": "2017-10-19T06:16:47.199Z",
+      "status": "SUCCESS",
+      "Stmts": "64.79",
+      "Branch": "61.6",
+      "Funcs": "68.47",
+      "Lines": "70.4"
+    },
+    {
+      "jobIndex": 926,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-19T06:30:12.232Z",
+      "status": "SUCCESS",
+      "Stmts": "64.79",
+      "Branch": "61.69",
+      "Funcs": "68.39",
+      "Lines": "70.42"
+    },
+    {
+      "jobIndex": 927,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-19T06:37:02.249Z",
+      "status": "SUCCESS",
+      "Stmts": "65.89",
+      "Branch": "63.13",
+      "Funcs": "69.38",
+      "Lines": "71.41"
+    },
+    {
+      "jobIndex": 928,
+      "branch": "kfeng/ANE-67110",
+      "dateTime": "2017-10-19T07:06:47.334Z",
+      "status": "SUCCESS",
+      "Stmts": "65.89",
+      "Branch": "63.13",
+      "Funcs": "69.38",
+      "Lines": "71.41"
+    },
+    {
+      "jobIndex": 929,
+      "branch": "Stian-ANE-64674-empty-subquestions",
+      "dateTime": "2017-10-19T09:43:52.742Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 930,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-19T10:53:18.072Z",
+      "status": "SUCCESS",
+      "Stmts": "65.89",
+      "Branch": "63.05",
+      "Funcs": "69.3",
+      "Lines": "71.39"
+    },
+    {
+      "jobIndex": 931,
+      "branch": "Stian-ANE-64674-empty-subquestions",
+      "dateTime": "2017-10-19T10:59:57.453Z",
+      "status": "SUCCESS",
+      "Stmts": "65.73",
+      "Branch": "62.89",
+      "Funcs": "69.26",
+      "Lines": "71.21"
+    },
+    {
+      "jobIndex": 932,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-19T11:06:59.059Z",
+      "status": "SUCCESS",
+      "Stmts": "65.89",
+      "Branch": "63.05",
+      "Funcs": "69.3",
+      "Lines": "71.39"
+    },
+    {
+      "jobIndex": 933,
+      "branch": "echen1/ANE-67681-Problems-about-Drop-Down-list-on-Resource-Calendar",
+      "dateTime": "2017-10-20T02:27:25.825Z",
+      "status": "SUCCESS",
+      "Stmts": "65.9",
+      "Branch": "63.14",
+      "Funcs": "69.38",
+      "Lines": "71.42"
+    },
+    {
+      "jobIndex": 934,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-20T02:38:30.862Z",
+      "status": "SUCCESS",
+      "Stmts": "65.9",
+      "Branch": "63.14",
+      "Funcs": "69.38",
+      "Lines": "71.42"
+    },
+    {
+      "jobIndex": 935,
+      "branch": "echen1/ANE-62277-FEE-View-Permit-CUI",
+      "dateTime": "2017-10-20T07:03:12.098Z",
+      "status": "SUCCESS",
+      "Stmts": "65.87",
+      "Branch": "63.13",
+      "Funcs": "69.35",
+      "Lines": "71.39"
+    },
+    {
+      "jobIndex": 936,
+      "branch": "echen1/ANE-67614-FEE-UT-for-index.Reservation.components.LinkGroup",
+      "dateTime": "2017-10-20T07:15:02.139Z",
+      "status": "SUCCESS",
+      "Stmts": "66.2",
+      "Branch": "63.3",
+      "Funcs": "69.55",
+      "Lines": "71.63"
+    },
+    {
+      "jobIndex": 937,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-20T07:41:07.213Z",
+      "status": "SUCCESS",
+      "Stmts": "65.92",
+      "Branch": "63.07",
+      "Funcs": "69.33",
+      "Lines": "71.42"
+    },
+    {
+      "jobIndex": 938,
+      "branch": "Stian-ANE-64674-empty-subquestions",
+      "dateTime": "2017-10-20T08:24:07.323Z",
+      "status": "SUCCESS",
+      "Stmts": "65.71",
+      "Branch": "62.87",
+      "Funcs": "69.26",
+      "Lines": "71.19"
+    },
+    {
+      "jobIndex": 939,
+      "branch": "kfeng/ANE-67110",
+      "dateTime": "2017-10-20T09:04:17.427Z",
+      "status": "SUCCESS",
+      "Stmts": "65.96",
+      "Branch": "63.18",
+      "Funcs": "69.51",
+      "Lines": "71.49"
+    },
+    {
+      "jobIndex": 940,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-20T09:11:09.643Z",
+      "status": "SUCCESS",
+      "Stmts": "65.71",
+      "Branch": "62.87",
+      "Funcs": "69.26",
+      "Lines": "71.19"
+    },
+    {
+      "jobIndex": 941,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-20T09:17:14.669Z",
+      "status": "SUCCESS",
+      "Stmts": "65.77",
+      "Branch": "62.91",
+      "Funcs": "69.39",
+      "Lines": "71.26"
+    },
+    {
+      "jobIndex": 942,
+      "branch": "david/add-test-coverage-report",
+      "dateTime": "2017-10-20T09:43:42.534Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 943,
+      "branch": "david/add-test-coverage-report",
+      "dateTime": "2017-10-20T09:47:04.923Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 944,
+      "branch": "david/add-test-coverage-report",
+      "dateTime": "2017-10-20T10:21:52.626Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 945,
+      "branch": "david/add-test-coverage-report",
+      "dateTime": "2017-10-20T10:28:27.643Z",
+      "status": "SUCCESS",
+      "Stmts": "65.77",
+      "Branch": "62.91",
+      "Funcs": "69.39",
+      "Lines": "71.26"
+    },
+    {
+      "jobIndex": 946,
+      "branch": "jc/ANE-68349",
+      "dateTime": "2017-10-21T12:51:27.065Z",
+      "status": "SUCCESS",
+      "Stmts": "65.74",
+      "Branch": "62.83",
+      "Funcs": "69.36",
+      "Lines": "71.22"
+    },
+    {
+      "jobIndex": 947,
+      "branch": "jc/ANE-68349",
+      "dateTime": "2017-10-21T12:58:09.027Z",
+      "status": "SUCCESS",
+      "Stmts": "65.74",
+      "Branch": "62.83",
+      "Funcs": "69.36",
+      "Lines": "71.22"
+    },
+    {
+      "jobIndex": 948,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T01:51:55.511Z",
+      "status": "SUCCESS",
+      "Stmts": "65.75",
+      "Branch": "62.9",
+      "Funcs": "69.37",
+      "Lines": "71.22"
+    },
+    {
+      "jobIndex": 949,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T02:23:30.952Z",
+      "status": "SUCCESS",
+      "Stmts": "65.71",
+      "Branch": "62.82",
+      "Funcs": "69.34",
+      "Lines": "71.19"
+    },
+    {
+      "jobIndex": 950,
+      "branch": "david/add-test-coverage-report",
+      "dateTime": "2017-10-23T04:22:11.272Z",
+      "status": "SUCCESS",
+      "Stmts": "65.71",
+      "Branch": "62.82",
+      "Funcs": "69.34",
+      "Lines": "71.19"
+    },
+    {
+      "jobIndex": 951,
+      "branch": "echen1/ANE-67613-FEE-UT-for-index.RefundDeposits",
+      "dateTime": "2017-10-23T06:11:11.675Z",
+      "status": "SUCCESS",
+      "Stmts": "65.77",
+      "Branch": "62.98",
+      "Funcs": "69.42",
+      "Lines": "71.24"
+    },
+    {
+      "jobIndex": 952,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T06:17:05.905Z",
+      "status": "SUCCESS",
+      "Stmts": "65.71",
+      "Branch": "62.82",
+      "Funcs": "69.34",
+      "Lines": "71.19"
+    },
+    {
+      "jobIndex": 953,
+      "branch": "echen1/ANE-67613-FEE-UT-for-index.RefundDeposits",
+      "dateTime": "2017-10-23T06:28:46.717Z",
+      "status": "SUCCESS",
+      "Stmts": "65.77",
+      "Branch": "62.98",
+      "Funcs": "69.42",
+      "Lines": "71.24"
+    },
+    {
+      "jobIndex": 954,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T06:58:26.812Z",
+      "status": "SUCCESS",
+      "Stmts": "65.77",
+      "Branch": "62.98",
+      "Funcs": "69.42",
+      "Lines": "71.24"
+    },
+    {
+      "jobIndex": 955,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T07:04:21.826Z",
+      "status": "SUCCESS",
+      "Stmts": "66.06",
+      "Branch": "63.13",
+      "Funcs": "69.58",
+      "Lines": "71.45"
+    },
+    {
+      "jobIndex": 956,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T07:34:56.931Z",
+      "status": "SUCCESS",
+      "Stmts": "66.06",
+      "Branch": "63.13",
+      "Funcs": "69.58",
+      "Lines": "71.45"
+    },
+    {
+      "jobIndex": 957,
+      "branch": "kfeng/ANE-63648",
+      "dateTime": "2017-10-23T07:41:59.432Z",
+      "status": "FAILURE",
+      "Stmts": "66.3",
+      "Branch": "63.23",
+      "Funcs": "69.74",
+      "Lines": "71.61"
+    },
+    {
+      "jobIndex": 958,
+      "branch": "Stian/ANE-68368-magtek-ui",
+      "dateTime": "2017-10-23T07:49:14.609Z",
+      "status": "SUCCESS",
+      "Stmts": "66.06",
+      "Branch": "63.13",
+      "Funcs": "69.58",
+      "Lines": "71.45"
+    },
+    {
+      "jobIndex": 959,
+      "branch": "Stian/ANE-68393-magtek-swiper-card-missing",
+      "dateTime": "2017-10-23T07:56:30.043Z",
+      "status": "SUCCESS",
+      "Stmts": "66.06",
+      "Branch": "63.13",
+      "Funcs": "69.58",
+      "Lines": "71.45"
+    },
+    {
+      "jobIndex": 960,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T08:05:02.010Z",
+      "status": "SUCCESS",
+      "Stmts": "66.06",
+      "Branch": "63.13",
+      "Funcs": "69.58",
+      "Lines": "71.45"
+    },
+    {
+      "jobIndex": 961,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T08:12:00.185Z",
+      "status": "SUCCESS",
+      "Stmts": "66.06",
+      "Branch": "63.13",
+      "Funcs": "69.58",
+      "Lines": "71.45"
+    },
+    {
+      "jobIndex": 962,
+      "branch": "kfeng/ANE-63648",
+      "dateTime": "2017-10-23T08:19:10.318Z",
+      "status": "SUCCESS",
+      "Stmts": "66.32",
+      "Branch": "63.24",
+      "Funcs": "69.79",
+      "Lines": "71.62"
+    },
+    {
+      "jobIndex": 963,
+      "branch": "kfeng/ANE-63648",
+      "dateTime": "2017-10-23T08:57:22.158Z",
+      "status": "SUCCESS",
+      "Stmts": "66.32",
+      "Branch": "63.24",
+      "Funcs": "69.79",
+      "Lines": "71.62"
+    },
+    {
+      "jobIndex": 964,
+      "branch": "mqin/ANE-63828",
+      "dateTime": "2017-10-23T09:10:08.366Z",
+      "status": "SUCCESS",
+      "Stmts": "66.08",
+      "Branch": "63.19",
+      "Funcs": "69.64",
+      "Lines": "71.49"
+    },
+    {
+      "jobIndex": 965,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-23T09:51:49.379Z",
+      "status": "SUCCESS",
+      "Stmts": "66.32",
+      "Branch": "63.24",
+      "Funcs": "69.79",
+      "Lines": "71.62"
+    },
+    {
+      "jobIndex": 966,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-24T01:20:15.761Z",
+      "status": "FAILURE",
+      "Stmts": "66.32",
+      "Branch": "63",
+      "Funcs": "69.71",
+      "Lines": "71.6"
+    },
+    {
+      "jobIndex": 967,
+      "branch": "mqin/ANE-63828",
+      "dateTime": "2017-10-24T01:47:35.838Z",
+      "status": "FAILURE",
+      "Stmts": "66.36",
+      "Branch": "63.29",
+      "Funcs": "69.82",
+      "Lines": "71.65"
+    },
+    {
+      "jobIndex": 968,
+      "branch": "mqin/ANE-63828",
+      "dateTime": "2017-10-24T02:38:15.986Z",
+      "status": "SUCCESS",
+      "Stmts": "66.38",
+      "Branch": "63.29",
+      "Funcs": "69.9",
+      "Lines": "71.68"
+    },
+    {
+      "jobIndex": 969,
+      "branch": "kfeng/ANE-63648",
+      "dateTime": "2017-10-24T06:57:46.622Z",
+      "status": "SUCCESS",
+      "Stmts": "66.32",
+      "Branch": "63.24",
+      "Funcs": "69.79",
+      "Lines": "71.62"
+    },
+    {
+      "jobIndex": 970,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-24T07:08:26.673Z",
+      "status": "SUCCESS",
+      "Stmts": "66.32",
+      "Branch": "63.24",
+      "Funcs": "69.79",
+      "Lines": "71.62"
+    },
+    {
+      "jobIndex": 971,
+      "branch": "david/ANE-68395",
+      "dateTime": "2017-10-24T07:55:26.806Z",
+      "status": "FAILURE",
+      "Stmts": "65.77",
+      "Branch": "62.75",
+      "Funcs": "68.68",
+      "Lines": "71.02"
+    },
+    {
+      "jobIndex": 972,
+      "branch": "david/ANE-68395",
+      "dateTime": "2017-10-24T08:02:15.035Z",
+      "status": "FAILURE",
+      "Stmts": "65.77",
+      "Branch": "62.75",
+      "Funcs": "68.68",
+      "Lines": "71.02"
+    },
+    {
+      "jobIndex": 973,
+      "branch": "mqin/ANE-63828",
+      "dateTime": "2017-10-24T08:20:11.873Z",
+      "status": "ABORTED"
+    },
+    {
+      "jobIndex": 974,
+      "branch": "mqin/ANE-63828",
+      "dateTime": "2017-10-24T08:26:16.892Z",
+      "status": "SUCCESS",
+      "Stmts": "66.38",
+      "Branch": "63.29",
+      "Funcs": "69.9",
+      "Lines": "71.68"
+    },
+    {
+      "jobIndex": 975,
+      "branch": "david/ANE-68395",
+      "dateTime": "2017-10-24T08:36:46.919Z",
+      "status": "FAILURE",
+      "Stmts": "65.77",
+      "Branch": "62.75",
+      "Funcs": "68.68",
+      "Lines": "71.02"
+    },
+    {
+      "jobIndex": 976,
+      "branch": "david/ANE-68395",
+      "dateTime": "2017-10-24T09:06:42.001Z",
+      "status": "SUCCESS",
+      "Stmts": "66.37",
+      "Branch": "63.27",
+      "Funcs": "69.82",
+      "Lines": "71.66"
+    },
+    {
+      "jobIndex": 977,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-24T09:17:27.028Z",
+      "status": "SUCCESS",
+      "Stmts": "66.37",
+      "Branch": "63.27",
+      "Funcs": "69.82",
+      "Lines": "71.66"
+    },
+    {
+      "jobIndex": 978,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-25T01:57:49.557Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 979,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-25T03:32:04.777Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.32",
+      "Funcs": "69.93",
+      "Lines": "71.72"
+    },
+    {
+      "jobIndex": 980,
+      "branch": "Stian/ANE-60210-permitdetail-prerequisite",
+      "dateTime": "2017-10-25T05:42:50.094Z",
+      "status": "FAILURE",
+      "Stmts": "66.44",
+      "Branch": "63.08",
+      "Funcs": "69.87",
+      "Lines": "71.7"
+    },
+    {
+      "jobIndex": 981,
+      "branch": "mqin/ANE-63648",
+      "dateTime": "2017-10-25T07:09:50.442Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.32",
+      "Funcs": "69.93",
+      "Lines": "71.72"
+    },
+    {
+      "jobIndex": 982,
+      "branch": "Stian/ANE-67113-calendar-label",
+      "dateTime": "2017-10-25T07:15:56.404Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.33",
+      "Funcs": "69.93",
+      "Lines": "71.72"
+    },
+    {
+      "jobIndex": 983,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-25T07:29:20.465Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.33",
+      "Funcs": "69.93",
+      "Lines": "71.72"
+    },
+    {
+      "jobIndex": 984,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-25T07:52:05.536Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.33",
+      "Funcs": "69.93",
+      "Lines": "71.72"
+    },
+    {
+      "jobIndex": 985,
+      "branch": "kfeng/ANE-68447",
+      "dateTime": "2017-10-25T08:02:25.629Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 986,
+      "branch": "kfeng/ANE-68447",
+      "dateTime": "2017-10-25T08:09:40.624Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 987,
+      "branch": "kfeng/ANE-68447",
+      "dateTime": "2017-10-25T08:39:45.700Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 988,
+      "branch": "kfeng/ANE-68447",
+      "dateTime": "2017-10-25T08:43:08.819Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 989,
+      "branch": "Stian/ANE-68227-payment-plan-first-date",
+      "dateTime": "2017-10-25T08:48:40.718Z",
+      "status": "FAILURE"
+    },
+    {
+      "jobIndex": 990,
+      "branch": "kfeng/ANE-68447",
+      "dateTime": "2017-10-25T08:52:02.825Z",
+      "status": "SUCCESS",
+      "Stmts": "66.42",
+      "Branch": "63.29",
+      "Funcs": "69.91",
+      "Lines": "71.71"
+    },
+    {
+      "jobIndex": 991,
+      "branch": "Stian/ANE-68227-payment-plan-first-date",
+      "dateTime": "2017-10-25T08:58:55.752Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.33",
+      "Funcs": "69.93",
+      "Lines": "71.71"
+    },
+    {
+      "jobIndex": 992,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-25T09:09:35.858Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.33",
+      "Funcs": "69.93",
+      "Lines": "71.71"
+    },
+    {
+      "jobIndex": 993,
+      "branch": "Stian/update-claim-discount",
+      "dateTime": "2017-10-26T01:19:03.505Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.33",
+      "Funcs": "69.93",
+      "Lines": "71.71"
+    },
+    {
+      "jobIndex": 994,
+      "branch": "Stian/update-claim-discount",
+      "dateTime": "2017-10-26T01:25:57.884Z",
+      "status": "SUCCESS",
+      "Stmts": "66.43",
+      "Branch": "63.33",
+      "Funcs": "69.93",
+      "Lines": "71.71"
+    },
+    {
+      "jobIndex": 995,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-26T01:55:33.600Z",
+      "status": "SUCCESS",
+      "Stmts": "66.42",
+      "Branch": "63.31",
+      "Funcs": "69.91",
+      "Lines": "71.71"
+    },
+    {
+      "jobIndex": 996,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-26T02:02:07.896Z",
+      "status": "SUCCESS",
+      "Stmts": "66.42",
+      "Branch": "63.29",
+      "Funcs": "69.91",
+      "Lines": "71.71"
+    },
+    {
+      "jobIndex": 997,
+      "branch": "kfeng/ANE-67607",
+      "dateTime": "2017-10-26T06:42:54.392Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.16",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 998,
+      "branch": "kfeng/ANE-67607",
+      "dateTime": "2017-10-26T07:23:09.487Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.16",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 999,
+      "branch": "david/ANE-67384",
+      "dateTime": "2017-10-26T08:01:54.576Z",
+      "status": "FAILURE",
+      "Stmts": "66.12",
+      "Branch": "62.88",
+      "Funcs": "69.58",
+      "Lines": "71.38"
+    },
+    {
+      "jobIndex": 1000,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-26T08:08:01.875Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.16",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 1001,
+      "branch": "mqin/ANE-67618",
+      "dateTime": "2017-10-26T08:43:44.680Z",
+      "status": "SUCCESS",
+      "Stmts": "67.7",
+      "Branch": "64.38",
+      "Funcs": "70.83",
+      "Lines": "72.53"
+    },
+    {
+      "jobIndex": 1002,
+      "branch": "myan/ANE-68532",
+      "dateTime": "2017-10-26T09:14:04.747Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.16",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 1003,
+      "branch": "myan/ANE-68532",
+      "dateTime": "2017-10-26T09:42:54.816Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.16",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 1004,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-26T10:12:29.890Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.16",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 1005,
+      "branch": "david/ANE-67384",
+      "dateTime": "2017-10-26T11:04:05.021Z",
+      "status": "SUCCESS",
+      "Stmts": "64.88",
+      "Branch": "61.68",
+      "Funcs": "68.69",
+      "Lines": "69.87"
+    },
+    {
+      "jobIndex": 1006,
+      "branch": "Stian/ANE-58057-claimCharge",
+      "dateTime": "2017-10-27T02:35:07.324Z",
+      "status": "SUCCESS",
+      "Stmts": "66.85",
+      "Branch": "63.75",
+      "Funcs": "70.16",
+      "Lines": "72.02"
+    },
+    {
+      "jobIndex": 1007,
+      "branch": "echen1/ANE-68219-FEE--UT-for-index/Reservation/components/PermitFilter",
+      "dateTime": "2017-10-27T02:41:32.340Z",
+      "status": "FAILURE",
+      "Stmts": "66.87",
+      "Branch": "63.84",
+      "Funcs": "70.1",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 1008,
+      "branch": "echen1/ANE-68219-FEE--UT-for-index/Reservation/components/PermitFilter",
+      "dateTime": "2017-10-27T02:59:52.438Z",
+      "status": "FAILURE",
+      "Stmts": "66.85",
+      "Branch": "63.83",
+      "Funcs": "70.02",
+      "Lines": "72.02"
+    },
+    {
+      "jobIndex": 1009,
+      "branch": "Stian/ANE-58057-claimCharge",
+      "dateTime": "2017-10-27T03:06:43.681Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.16",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 1010,
+      "branch": "echen1/ANE-68219-FEE--UT-for-index/Reservation/components/PermitFilter",
+      "dateTime": "2017-10-27T03:21:42.489Z",
+      "status": "FAILURE",
+      "Stmts": "66.86",
+      "Branch": "63.83",
+      "Funcs": "70.02",
+      "Lines": "72.03"
+    },
+    {
+      "jobIndex": 1011,
+      "branch": "mqin/ANE-63828-fix-email-validation",
+      "dateTime": "2017-10-27T03:28:16.450Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.17",
+      "Lines": "72.05"
+    },
+    {
+      "jobIndex": 1012,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-27T03:34:09.536Z",
+      "status": "SUCCESS",
+      "Stmts": "66.87",
+      "Branch": "63.79",
+      "Funcs": "70.16",
+      "Lines": "72.04"
+    },
+    {
+      "jobIndex": 1013,
+      "branch": "facility-redesign-phase-ii",
+      "dateTime": "2017-10-27T03:40:20.454Z",
+      "status": "SUCCESS",
+      "Stmts": "67.7",
+      "Branch": "64.38",
+      "Funcs": "70.83",
+      "Lines": "72.53"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+@import "~shared/style/variables/index.less";
+
+@title-line-height: 38px;
+@title-font-size: 32px;
+@title-color: #313741;
+
+.initFontSize {
+  font-size: 14px;
+}
+
+.cart-page {
+
+  .page-title {
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      margin: 0;
+      font-size: @title-font-size;
+      color: @title-color;
+      line-height: @title-line-height;
+      font-weight: @semibold;
+      display: inline-flex;
+    }
+    .icon-group {
+      display: inline-flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+
+  .icon-cart-m {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .permit-detail-help {
+    position: absolute;
+    z-index: 2;
+    right: 15px;
+    top: 15px;
+    color: #4dbde9;
+    font-size: 14px;
+    cursor: pointer;
+    i {
+      display: inline-block;
+      margin-right: 3px;
+    }
+    &:hover {
+      color: darken(#4dbde9, 10%);
+      text-decoration: none;
+    }
+  }
+}

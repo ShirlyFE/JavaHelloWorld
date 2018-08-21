@@ -1,0 +1,165 @@
+@import "~shared/style/variables/index.less";
+
+@color-black: #313741;
+@color-gray: #748288;
+@border-color-gray: #d6d7da;
+
+.permit-confirmation {
+  .header {
+    margin-bottom: 30px;
+
+    .title {
+      font-size: 32px;
+      line-height: 1.2;
+      color: @color-black;
+      margin: 0;
+      display: inline-block;
+      font-weight: @semibold;
+    }
+
+    button {
+      float: right;
+      margin-top: 4px;
+    }
+  }
+
+  .automatic-email-section {
+    width: 100%;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #ebfaf3;
+    border: solid 1px #29c87f;
+
+    h2 {
+      font-size: 24px;
+      line-height: 1.5;
+      color: #00a258;
+      margin-top: 42px;
+      margin-bottom: 42px;
+    }
+
+    small {
+      position: relative;
+      bottom: 40px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: @color-gray;
+      display: inline-block;
+    }
+  }
+
+  .permit-transactions-section {
+    margin-top: 20px;
+
+    .header {
+      margin-bottom: 18px;
+
+      .title {
+        font-size: 20px;
+        line-height: 1.5;
+        color: @color-black;
+      }
+
+      .view-link {
+        float: right;
+        margin-top: 9px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: capitalize;
+
+        .icon {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .transaction-section {
+
+      .title {
+        margin: 0;
+        padding: 0 10px 16px;
+        font-size: 14px;
+        line-height: 1.7;
+        color: @color-gray;
+      }
+
+      .transaction-list {
+        margin: 0;
+        padding: 0;
+        border-top: solid 2px @border-color-gray;
+        border-bottom: solid 2px @border-color-gray;
+        list-style: none;
+      }
+
+      .transaction-item {
+        padding: 12px 10px 0;
+        border-bottom: solid 1px @border-color-gray;
+
+        &:last-child {
+          border: none;
+        }
+
+        .summary {
+          padding-bottom: 10px;
+          line-height: 20px;
+          font-size: 16px;
+          color: @color-blue;
+
+          .item-title {
+            display: inline-block;
+            max-width: 780px;
+            color: @color-black;
+            font-weight: 600;
+          }
+
+          .total-charge {
+            color: @color-black;
+            float: right;
+          }
+        }
+
+        .facility-detail {
+          margin: 10px 30px;
+          padding: 0;
+          font-size: 16px;
+          color: @color-black;
+          > span {
+            display: inline-block;
+          }
+          &__name {
+            width: 325px;
+            float: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            word-wrap: break-word;
+            word-break: break-word;
+          }
+
+          &__center {
+            font-weight: bolder;
+            padding-right: 8px;
+            padding-left: 6px;
+          }
+          &__center-name {
+            flex: 1;
+          }
+        }
+      }
+    }
+
+    .page-footer {
+      margin-top: 20px;
+      font-weight: @semibold;
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: right;
+      color: @color-black;
+      .total {
+        font-weight: @semibold;
+        padding-right: 15px;
+      }
+    }
+  }
+}

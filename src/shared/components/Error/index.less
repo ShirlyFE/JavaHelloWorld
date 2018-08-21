@@ -1,0 +1,49 @@
+@error-bar-width: 650px;
+
+.error-bar {
+  &-body {
+    display: block;
+    background-color: #fff;
+    padding: 30px;
+    line-height: 1.5em;
+    border-radius: 0 0 10px 10px;
+
+    .error {
+      display: flex;
+      border-color: #fff;
+      background: #fff;
+      padding: 0;
+
+      &-content {
+        vertical-align: top;
+        padding-left: 10px;
+        padding-right: 30px;
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      &-reload-btn {
+        color: #009DD9;
+        cursor: pointer;
+      }
+
+      .go-login-btn {
+        position: absolute;
+        top: 90px;
+        right: 0;
+      }
+    }
+  }
+
+  &-button {
+    margin-top: 15px;
+    float: right;
+  }
+
+  .modal-box {
+    width: @error-bar-width;
+  }
+}

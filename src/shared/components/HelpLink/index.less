@@ -1,0 +1,33 @@
+@import "~shared/style/variables/index.less";
+
+.help-link {
+  display: flex;
+  justify-content: flex-end;
+  color: @picton-blue;
+  line-height: 14px;
+  margin-bottom: 6px;
+
+  div {
+    cursor: pointer;
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+    text-align: center;
+    border-radius: 7px;
+    background: @picton-blue;
+
+    i {
+      color: @white;
+      font-size: 13px;
+      vertical-align: top;
+    }
+  }
+
+  span:last-child {
+    font-size: 14px;
+  }
+}

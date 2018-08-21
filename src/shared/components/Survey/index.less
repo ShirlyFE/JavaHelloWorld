@@ -1,0 +1,54 @@
+@import "~shared/style/variables/index.less";
+
+.survey-container {
+  .survey-header {
+    .icon {
+      color: @color-blue;
+      font-size: @font-size-base;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .header-section {
+    font-size: @font-size-sm;
+    padding-top: 20px;
+    padding-bottom:14px;
+    color: @rolling-stone;
+    padding-left: 9px;
+    border-bottom: solid 2px @color-gray-lighter;
+
+    &>div:first-child {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .survey-body {
+    padding-top: 20px;
+
+    .an-survey {
+      .question {
+        &-label__name {
+          span:last-child{
+            word-wrap: break-word;
+          }
+        }
+
+        &-answer {
+          padding-left: 20px;
+          padding-top: 5px;
+          max-width: 385px;
+
+          .an-phone>span {
+            line-height: 30px;
+          }
+
+          &__error {
+            padding: 1px 0 10px 0;
+          }
+        }
+      }
+    }
+  }
+}

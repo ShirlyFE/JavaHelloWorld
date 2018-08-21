@@ -1,0 +1,57 @@
+@containerWidth: 35px;
+@arrowColor: #fdfdfd;
+@outerArrowSize: 6px;
+@innerArrowSize: 4px;
+@arrowWidth: 2px;
+@arrowArcControl: 0;
+@lineArrowInterval: -4px;
+@arrowBackgroundColor: #707070;
+
+.intro-arrow {
+  width: @containerWidth;
+  height: @containerWidth;
+  position: relative;
+  overflow: hidden;
+  &:after, &:before {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  &:before {
+    border-color: transparent;
+    border-top-color: @arrowColor;
+    border-width: @outerArrowSize;
+    margin-left: -@arrowWidth;
+    bottom: -@outerArrowSize;
+    right: 0;
+  }
+  &:after {
+    border-color: transparent;
+    border-top-color: @arrowBackgroundColor;
+    border-width: @innerArrowSize;
+    bottom: -(@innerArrowSize - @arrowWidth);
+    right: @arrowWidth;
+  }
+  &-line {
+    position: absolute;
+    width: 2 * @containerWidth;
+    height: 2 * @containerWidth;
+    border-radius: @containerWidth;
+    border: 2px solid @arrowColor;
+    right: @innerArrowSize + @arrowWidth / 2;
+    z-index: 1;
+    margin-top: @arrowArcControl;
+  }
+  &-line-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: @lineArrowInterval;
+    overflow: hidden;
+  }
+}
+
+

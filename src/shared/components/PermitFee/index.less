@@ -1,0 +1,421 @@
+@import "~shared/style/variables/index.less";
+
+.permit-fee {
+  padding-bottom: 30px;
+  line-height: 24px;
+  &__reset {
+    font-weight: @semibold;
+    &.disabled {
+      opacity: 0.45;
+      cursor: text;
+    }
+  }
+
+  &-title {
+    font-weight: @semibold;
+    font-size: 20px;
+  }
+  &-list-header {
+    color: #748288;
+    padding: 20px 10px 14px 9px;
+  }
+
+  &-list {
+    border-top: solid 2px #d6d7da;
+    border-bottom: solid 2px #d6d7da;
+
+    .list-wrapper {
+      .item {
+        padding: 10px 1px 10px 9px;
+        border-top: dsdotted 1px #d6d7da;
+        padding-right: 10px;
+      }
+
+      &:first-child {
+        .item {
+          border-top: 0;
+        }
+      }
+    }
+
+    .fee-date {
+      display: inline-block;
+      min-width: 82px;
+    }
+
+    .fee-time {
+      display: inline-block;
+      padding: 0 8px;
+    }
+
+    .fee-padding-left {
+      padding-left: 8px;
+    }
+  }
+
+  &-list-header,
+  &-list,
+  &-total {
+    .afx-col {
+      font-size: 14px;
+      position: relative;
+    }
+    .afx-col-name {
+      font-size: 16px;
+      word-break: break-all;
+      word-wrap: break-word;
+      > p {
+        margin-top: 6px;
+        font-size: 14px;
+        margin-right: 12px;
+        line-height: 16px;
+        word-break: break-word;
+        word-wrap: break-word;
+        color: #748288;
+      }
+    }
+    .fee-amount-right {
+      padding-right: 24px;
+    }
+  }
+  .afx-col-right {
+    text-align: right;
+  }
+  .item-detail {
+    background: #eef9fd;
+    padding-left: 20px;
+    display: none;
+
+    .item-detail-title {
+      padding: 0px 10px;
+      color: #738187;
+
+      .afx-col {
+        font-size: 12px;
+      }
+    }
+
+    .item-detail-list-warpper {
+      display: block;
+
+      .item-detail-list {
+        vertical-align: middle;
+        padding: 10px;
+        border-top: dotted 1px #d6d7da;
+
+        &:first-child {
+          border-top: 0;
+        }
+
+        .afx-col {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .icon-calendar-m,
+  .icon-clock-m {
+    color: #748288;
+    display: inline-block;
+    padding-right: 4px;
+    cursor: default;
+    + .fee-time {
+      padding-left: 0;
+    }
+  }
+
+  .icon-info-circle {
+    width: 24px;
+    height: 20px;
+    text-align: center;
+    vertical-align: baseline;
+    position: relative;
+  }
+  .icon-chevron-down,
+  .icon-chevron-up {
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .icon-plus,
+  .icon-info-circle,
+  .icon-chevron-down,
+  .icon-chevron-up,
+  .icon-trash,
+  .icon-sign-m {
+    cursor: pointer;
+    color: @color-blue;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    &:hover {
+      color: @color-blue-darker;
+    }
+  }
+  .icon-info-circle{
+    cursor: default;
+  }
+  .info-tooltip {
+    top: auto !important;
+    left: 50% !important;
+    bottom: ~"calc(100% + 8px)" !important;
+    transform: translate(-50%, 0) !important;
+    padding: 10px 20px 10px 12px;
+    .info-list {
+      text-align: left;
+      line-height: 24px;
+      font-size: 14px;
+      color: #748288;
+    }
+  }
+
+  .modal-box {
+    width: 350px !important;
+    height: 300px !important;
+  }
+
+  .permit-fee-list-footer {
+    padding-top: 10px;
+    .afx-col {
+      font-size: 14px;
+    }
+    .fee-amount-right {
+      padding-right: 30px;
+    }
+    .afx-col-bold {
+      font-weight: @semibold;
+    }
+    .afx-col-total {
+      padding-top: 10px;
+      font-weight: @semibold;
+      font-size: 20px;
+      span {
+        display: inline-block;
+        padding-left: 20px;
+      }
+    }
+  }
+
+  .col-name {
+    display: inline-block;
+    font-weight: @semibold;
+    padding-right: 28px;
+    text-align: right;
+  }
+
+  .col-amount {
+    display: inline-block;
+  }
+  .afx-col {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+  }
+}
+
+.reservation-fee {
+
+  .reservartion-panel {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .panel {
+    border-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  .permit-event-fee {
+    display: flex;
+    padding: 20px;
+    line-height: 24px;
+    height: 24px;
+    background-color: #eef9fd;
+    justify-content: space-between;
+
+    .event-name {
+      display: inline-flex;
+      font-size: 20px;
+      font-weight: 600px;
+
+      i {
+        position: relative;
+      }
+    }
+
+    .event-information {
+      display: inline-flex;
+      font-size: 16px;
+
+      .event-fee-total {
+        font-weight: 600px;
+      }
+
+      .event-fee-resource,
+      .event-fee-booking,
+      .event-fee-total {
+        margin-right: 20px;
+      }
+      .event-fee-edit {
+        margin: 0 20px 0 10px;
+      }
+    }
+
+    .permit-fee-list-footer {
+      padding-top: 20px;
+    }
+  }
+
+  .list-wrapper,.schedule-list {
+    padding: 0;
+    border-top: dotted 1px #d6d7da;
+    border-bottom: 0;
+
+    &:first-child {
+      border-top: 0px;
+    }
+  }
+
+  .afx-col-name {
+    vertical-align: top;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .schedule-list {
+    padding: 0px;
+
+    .afx-col {
+      padding: 10px 0;
+    }
+
+    .icon-chevron-down,
+    .icon-chevron-up {
+      top: 8px;
+    }
+
+    .facility-option {
+      .icon { font-size: 16px; }
+    }
+  }
+
+  .recurring-fees {
+    position: relative;
+    overflow: hidden;
+
+    .recurring-title {
+      font-size: 14px;
+      line-height: 24px;
+      text-align: right;
+      color: @color-blue;
+      padding: 0px 47px 10px 87px;
+      cursor: pointer;
+
+      i {
+        position: relative;
+        top:0px;
+      }
+    }
+
+    .recurring-list {
+      background-color: #eef9fd;
+      border-top: 0px;
+
+      .recurring-datetime {
+        background-color: #ffffff;
+        padding: 0px;
+
+        .datetime {
+          width: 100%;
+          padding: 10px 0 10px 10px;
+          margin-left: 20px;
+          background-color: #eef9fd;
+        }
+      }
+      .recurring-border {
+        border-top: dotted 1px #d6d7da;
+        background-color: #eef9fd;
+      }
+    }
+  }
+
+  .schedule-fee {
+    display: none;
+    position: relative;
+    overflow: auto;
+  }
+
+  .item-detail-list {
+    vertical-align: middle;
+    padding: 0;
+    border-top: 0;
+
+    .facility-fee {
+      width: 100%;
+      margin-left: 20px;
+      padding: 10px 0 10px 10px;
+      border-top: dotted 1px #d6d7da;
+    }
+
+    .afx-col {
+      font-size: 14px;
+      border-top: dotted 1px #d6d7da;
+      padding: 10px 0;
+      color: #748288;
+
+      &:first-child {
+        border-top: 0;
+        padding: 0;
+      }
+    }
+
+    .fee-amount {
+      padding-right: 24px;
+    }
+  }
+
+  .facility-item {
+    display: flex;
+
+    & > div {
+      display: inline-flex;
+    }
+    .item-title {
+      width: 70%;
+    }
+    .item-amount {
+      width: 18%;
+      justify-content: flex-end;
+    }
+    .item-option {
+      width: 12%;
+    }
+    .item-fee-name {
+      width: 45%;
+    }
+    .item-fee-detail {
+      width: 25%;
+      justify-content: flex-end;
+    }
+  }
+
+  .facility-option {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+

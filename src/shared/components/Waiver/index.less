@@ -1,0 +1,187 @@
+@import "~shared/style/variables/index.less";
+
+.waiver{
+
+  .sectionTitle{
+    font-weight: @semibold;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #313741;
+    margin: 0;
+
+    .update-changed-label{
+      left : -2px;
+    }
+
+    .icon {
+      color: @color-blue;
+      font-size: 16px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .header-section {
+    font-size: @font-size-sm;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom:14px;
+    color: @rolling-stone;
+    padding-left: 9px;
+
+    &>div:first-child {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .dataList{
+    border-top: solid 2px #d6d7da;
+    border-bottom: solid 2px #d6d7da;
+
+    &.empty {
+      border-bottom: 0;
+    }
+  }
+
+  .afx-col{
+    font-size: 16px;
+    &.afx-xl-8-12 {
+      padding-right: 10px;
+    }
+  }
+
+  .aLink{
+    word-break: break-word;
+    text-align: justify;
+
+    &.desc{
+      display: inline-block;
+      padding-left: 0;
+      padding-top: 2px;
+      font-size: 16px;
+    }
+
+    &:hover{
+      color: #0077b4;
+      text-decoration: underline;
+    }
+  }
+
+  .link{
+    font-size: 14px;
+    color: @color-blue;
+    text-decoration: none;
+    span{
+      padding-left: 5px;
+    }
+    &:hover{
+      color: #0077b4;
+    }
+  }
+
+  .checkbox{
+    padding-right: 9px;
+  }
+
+  .icon-asterisk{
+    color: #ff6046;
+    font-size: 7px;
+    font-weight: normal;
+    vertical-align: top;
+    cursor: default;
+    padding-top: 3px;
+  }
+
+  .item{
+    padding: 10px 1px 10px 9px;
+    border-bottom: dotted 1px #d6d7da;
+
+    &.last-addwaiver-item {
+      border-bottom: 2px solid#d6d7da;
+    }
+
+    &:first-child {
+      padding-top: 20px;
+    }
+
+    .aaui-flex:first-child {
+      padding-bottom: 10px;
+    }
+  }
+
+  .last-item{
+    padding: 10px 1px 10px 9px;
+    border: 0;
+  }
+
+  .waiver-date {
+    display: inline-flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: #738187;
+    vertical-align: top;
+    line-height: 22px;
+
+    > div {
+      min-width: 120px;
+      margin-left: 16px;
+    }
+
+    > div + div {
+      min-width: 160px;
+    }
+  }
+
+  .waiver-display-agreement {
+    display: inline-flex;
+    > div + div {
+      margin-left: 20px;
+    }
+  }
+
+  .waiver-sign-attachment {
+    display: inline-flex;
+    justify-content: flex-end;
+
+    .waiver-attachment {
+      margin-left: 20px;
+    }
+  }
+
+  .signName{
+    font-size: 14px;
+    color: @color-blue;
+    span{
+      padding-left: 5px;
+    }
+    &:hover{
+      color: #0077b4;
+      text-decoration: none;
+    }
+  }
+
+  .errorMsg{
+    margin-left: 15px;
+    color: red;
+  }
+
+  .visibility-hide{
+    visibility: hidden;
+  }
+}
+
+#SNPdialog{
+  height: 362px !important;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 15px;
+  hr {
+    margin: 6px 0;
+    padding: 0;
+    border-color: #222;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+};

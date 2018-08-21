@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "response_code": "0000",
+    "response_message": "Successful",
+    "page_info": {
+      "pageCount": 1,
+      "recordCount": 0,
+      "multiplePage": false,
+      "order_by": "",
+      "page_number": 1,
+      "order_option": "ASC",
+      "total_page": 1,
+      "total_records": 0,
+      "total_records_per_page": 30
+    }
+  },
+  "body": {
+    "booking_list": {
+      "resourceInfo": [
+        {
+          "resourceID": 1,
+          "resourceName": "long long long name test resourceType &apm;",
+          "resourceNumber": "2323",
+          "resourceType": 0,
+          "prepCodeID": 2,
+          "setupMinutes": 0,
+          "cleanupMinutes": 0,
+          "reservationPeriodUnit": 1,
+          "minimumTime": 0,
+          "maximumTime": 0,
+          "resourceSkipDate": [
+            {
+              "description": "rubingtest",
+              "startTime": "11:45 PM",
+              "endTime": "1:00 AM",
+              "startDate": "2016 JUN 4",
+              "endDate": "2016 JUN 5",
+              "disregardYear": true
+            },
+            {
+              "description": "2 c test",
+              "startTime": "11:45 PM",
+              "endTime": "1:00 AM",
+              "startDate": "2016 JUN 4",
+              "endDate": "2016 JUN 5",
+              "disregardYear": true
+            },
+            {
+              "description": "2 a test",
+              "startTime": "11:45 PM",
+              "endTime": "1:00 AM",
+              "startDate": "2016 JUN 4",
+              "endDate": "2016 JUN 5",
+              "disregardYear": true
+            }
+          ],
+          "closedTimes": [{
+            "startTime": "",
+            "endTime": "",
+            "closedAllDay": true
+          }]
+        }
+      ],
+      "bookingInfo": [],
+      "eventBookingInfo": []
+    }
+  }
+}

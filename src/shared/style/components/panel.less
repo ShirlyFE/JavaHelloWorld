@@ -1,0 +1,28 @@
+@import "../variables/index.less";
+
+.@{an-basename}-panel {
+  padding: @an-panel-padding;
+  border: @an-panel-border;
+  margin-bottom: @an-panel-margin-bottom;
+  &:hover{
+    border-color: @an-panel-hover-border-color;
+  }
+
+  &__header {
+    font-weight: @headings-font-weight;
+    font-size: @font-size-lg;
+    line-height: @an-panel-header-line-height;
+    margin-top: 0;
+    margin-bottom: @an-panel-margin-bottom;
+  }
+}
+
+.panel { // remove after an-panel applied 
+  padding:15px;
+  border: solid 2px rgba(240, 240, 240,.8);
+  margin-bottom:20px;
+  &:hover{
+    border-color: fade(#c5e2ed, 80%);
+  }
+}
+

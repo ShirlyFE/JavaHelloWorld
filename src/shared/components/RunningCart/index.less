@@ -1,0 +1,115 @@
+@import "~shared/style/variables/index.less";
+
+.runningCart-wrapper {
+  float: right;
+  position: relative;
+
+  .cart-list-count {
+    padding-left: 5px;
+  }
+  .runningCart {
+    position: absolute;
+    right: 0;
+    top: 32px;
+    width: 340px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #d6d7da;
+    cursor: default;
+    z-index: 1003;
+
+    .cart-list-wrapper {
+      max-height: 380px;
+      overflow: auto;
+      padding: 20px 20px 20px 15px;
+    }
+
+    .cart-empty, .cart-loading, .cart-error {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .cart-empty {
+      color: #748288;
+
+      .icon-cart-m {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        font-size: 36px;
+        color: #b3bdc1;
+        padding: 0 0 10px;
+      }
+    }
+
+    .cart-error {
+      color: #d93a20;
+      font-size: 14px;
+      &-icon {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        font-size: 36px;
+        color: #b3bdc1;
+        padding: 0 0 10px;
+        .icon-cart-m {
+          position: relative;
+          color: #ddd;
+          .icon-times-circle {
+            position: absolute;
+            font-size: 14px;
+            bottom: 0;
+            right: -7px;
+            color: #d93a20;
+            border: 2px solid #fff;
+            border-radius: 16px;
+          }
+        }
+      }
+    }
+
+    .cart-loading {
+      .loading-bar__outer-box {
+        position: initial;
+      }
+    }
+
+    .cart-list {
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+    }
+
+    .list {
+      display: table-row;
+      &:last-child {
+        .col-description, .col-amount {
+          border-bottom-width: 0;
+        }
+      }
+    }
+
+    .col-description, .col-amount {
+      display: table-cell;
+      padding: 10px 0;
+      vertical-align: top;
+      color: #333;
+      font-size: 14px;
+      border-bottom: dotted 1px #d6d7da;
+    }
+
+    .col-description {
+      text-align: left;
+      padding-right: 5px;
+      word-wrap: break-word;
+      width: 65%;
+    }
+
+    .col-amount {
+      text-align: right;
+      font-weight: bold;
+      word-wrap: break-word;
+      width: 35%;
+    }
+  }
+}

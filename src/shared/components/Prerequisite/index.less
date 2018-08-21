@@ -1,0 +1,39 @@
+.prerequisite {
+  .prerequisite-warning {
+    margin-bottom: 20px;
+    &-content {
+      display: inline-block;
+      vertical-align: top;
+      padding-left: 10px;
+      padding-right: 30px;
+    }
+    &-override {
+      padding-left: 10px;
+      color: #313741;
+    }
+  }
+  .override-field {
+    margin-bottom: 20px;
+    input:-webkit-autofill {
+      background-color: #fff !important;
+    }
+    &__user-name {
+      margin-bottom: 15px;
+    }
+    &__label {
+      width: 125px;
+      text-align: right;
+      display: inline-block;
+      padding-right: 24px;
+      font-weight: 600;
+      &-error {
+        color: #db3811;
+      }
+    }
+    &__value {
+      width: 235px;
+      display: inline-block;
+      vertical-align: middle;  
+    }
+  }
+}

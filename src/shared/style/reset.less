@@ -1,0 +1,32 @@
+
+body {
+  font-family: @font-family-base;
+  line-height: @line-height-base;
+
+  .h1, .h2, .h3, .h4, .h5, .h6,
+  h1, h2, h3, h4, h5, h6,
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: @font-family-base;
+    margin: 0;
+    padding: 0;
+  }
+
+  textarea {
+    resize: none
+  }
+}
+
+.reset-box-sizing {
+  &{
+    box-sizing: content-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}

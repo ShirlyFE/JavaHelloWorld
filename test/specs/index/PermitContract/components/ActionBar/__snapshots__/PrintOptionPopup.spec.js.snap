@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index/PermitContract/components/ActionBar/PrintOptionPopup should render without errors 1`] = `
+<PrintOptionPopup>
+  <Alert
+    onCancel={[Function]}
+    onClose={[Function]}
+    onConfirm={[Function]}
+  >
+    <Modal
+      className="modal--alert undefined"
+      onClose={[Function]}
+      shown={false}
+    >
+      <div
+        className="modal-wrap"
+        role="dialog"
+      >
+        <div
+          className="modal modal--alert undefined"
+          onKeyDown={[Function]}
+        >
+          <section
+            className="modal-box"
+          >
+            <header
+              className="modal-header"
+            >
+              <h3
+                className="modal-title"
+              />
+              <span
+                aria-label="close-dialog"
+                className="icon-close modal-close"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex="0"
+              />
+            </header>
+            <div
+              className="modal-body"
+            >
+              <div
+                className="options"
+              >
+                <div
+                  className="options-option options-option-selected"
+                  onClick={[Function]}
+                >
+                  <div />
+                  <div>
+                    <i
+                      className="icon icon-check-circle"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="options-option "
+                  onClick={[Function]}
+                >
+                  <div>
+                    Schedule
+                  </div>
+                  <div />
+                </div>
+                <div
+                  className="options-recurring"
+                >
+                  <Checkbox
+                    checked={false}
+                    className="options-recurring-checkbox"
+                    onChange={[Function]}
+                  >
+                    <CheckboxComponent
+                      checked={false}
+                      className="options-recurring-checkbox"
+                      onChange={[Function]}
+                    >
+                      <label
+                        className="checkbox-wrapper options-recurring-checkbox"
+                        htmlFor="checkbox_attr_for_1"
+                      >
+                        <span
+                          className="checkbox"
+                        >
+                          <input
+                            aria-checked={false}
+                            checked={false}
+                            className="checkbox__input"
+                            id="checkbox_attr_for_1"
+                            onChange={[Function]}
+                            role="checkbox"
+                            type="checkbox"
+                          />
+                          <span
+                            className="checkbox__inner"
+                          />
+                        </span>
+                      </label>
+                    </CheckboxComponent>
+                  </Checkbox>
+                  Display all bookings for recurring
+                </div>
+              </div>
+            </div>
+            <div
+              className="modal-footer"
+            >
+              <Button
+                className=""
+                loading={false}
+                menuData={Array []}
+                noSubmit={false}
+                onClick={[Function]}
+                type="secondary"
+              >
+                <button
+                  className="btn btn-secondary"
+                  menuData={Array []}
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseOver={[Function]}
+                  type="submit"
+                >
+                  <span>
+                    Cancel
+                  </span>
+                </button>
+              </Button>
+              <Button
+                className=""
+                loading={false}
+                menuData={Array []}
+                noSubmit={false}
+                onClick={[Function]}
+                type="strong"
+              >
+                <button
+                  className="btn btn-strong"
+                  menuData={Array []}
+                  onClick={[Function]}
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseOver={[Function]}
+                  type="submit"
+                >
+                  <span>
+                    OK
+                  </span>
+                </button>
+              </Button>
+            </div>
+          </section>
+        </div>
+        <div
+          className="modal-mask"
+        />
+      </div>
+    </Modal>
+  </Alert>
+</PrintOptionPopup>
+`;
